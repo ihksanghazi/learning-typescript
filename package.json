@@ -1,0 +1,17 @@
+{
+	"name": "typescript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Nursandy Ihksan",
+	"license": "ISC",
+	"type": "module",
+	"devDependencies": {
+		"@types/jest": "^29.5.3",
+		"jest": "^29.6.2"
+	}
+}
