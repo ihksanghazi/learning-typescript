@@ -16,4 +16,24 @@ describe("If Statement", () => {
 
 		expect(say).toBe("Congratulation");
 	});
+
+	it("should support switch statement", function () {
+		function sayHello(name: string): string {
+			switch (name) {
+				case "Sandy":
+					return "Hello Sandy";
+					break;
+				case "Azhi":
+					return "Hello Azhi";
+					break;
+				default:
+					return "Hello";
+					break;
+			}
+		}
+
+		expect(sayHello("Sandy")).toBe("Hello Sandy");
+		expect(sayHello("Azhi")).toBe("Hello Azhi");
+		expect(sayHello("")).toBe("Hello");
+	});
 });
