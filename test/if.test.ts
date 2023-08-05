@@ -9,4 +9,11 @@ describe("If Statement", () => {
 			console.info("Try Again");
 		}
 	});
+
+	it("should support ternary operator", function () {
+		const value: number = 80;
+		const say: string = value >= 75 ? "Congratulation" : "Try Again";
+
+		expect(say).toBe("Congratulation");
+	});
 });
